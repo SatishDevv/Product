@@ -24,7 +24,7 @@ const Register = () => {
       console.log('API Response:', response);
 
       // Redirect to the login page
-      window.location.href = '/login';
+      // window.location.href = '/login';
     } catch (error) {
       // Log the error for debugging purposes
       console.error('API Error:', error);

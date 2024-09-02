@@ -28,7 +28,7 @@ const Login = () => {
       localStorage.setItem('user', JSON.stringify(response.data));
 
       // Redirect to the products page or any other page
-      window.location.href = '/';
+      // window.location.href = '/';
     } catch (error) {
       // Log the error for debugging purposes
       console.error('API Error:', error);
@@ -66,7 +66,7 @@ const Login = () => {
       </div>
       <div className="mb-4 text-center">
         <p className="text-gray-400">
-          Don't have an account?{' '}
+          Dont have an account?{' '}
           <a href="/register" className="text-blue-400 hover:underline">
             Register here
           </a>

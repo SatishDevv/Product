@@ -18,7 +18,7 @@ const Products = () => {
   useEffect(() => {
     const fetchProductsAndUser = async () => {
       if (!authtoken) {
-        window.location.href = '/login';
+        // window.location.href = '/login';
         setError('No authentication token found');
         setLoading(false);
         return;
